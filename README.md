@@ -1,21 +1,55 @@
-# Blog-Spot is React based web-application to manage Blogs.  
-## Tech Used:  
-###     Javascript  
-###     React  
-###     Redux  
-###     JSON  
-###     json-server  
-###     HTML & CSS  
+# Blog-Spot Web-Application.  
+## Tech Stack:  
+
+**Node:** `For javaScript runtime environment`
+
+**JavaScript:** `For Scripting and programming`
+
+**React:** `For reusable UI components` 
+
+**Redux:** `For central state management`
+
+**JSON:** `TO store data`
+
+**json-server:** `To host the json file` 
+
+**HTML & CSS:** `For web page skeleton designing ans styling` 
   
-## JSON is used as a database to store blogs.
 ## We can perform Create, Read, Delete and Update operations on blogs.
 
-## Home page with List of all Blogs.
-<img src="https://github.com/Chaudhary456/blog-spot-redux/blob/master/zhome.png" alt="Getting started" />
+## Environment Variables
 
-## Add a new Blog.
-<img src="zadd.png" alt="Getting started" />
+To run this project, you will need to add the following environment variables to your .env file
 
-## Update a present Blog.
-<img src="zEdit.png" alt="Getting started" />
+| Variable |  Description                |
+| :-------- | :------------------------- |
+| `REACT_APP_API` | http://localhost:8000 |
 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Chaudhary456/blog-spot-redux.git
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+**Make sure All Environment variables are defined in .env extension file**
+
+Start the application after setting all the environment variables
+
+```bash
+  npx json-server --watch data/db.json --port 8000  to run json-server.
+```
+```bash
+  npm start to run react app.
+```
+```bash
+  npm run dev to run both json-server and react app simultaneously.
+```
