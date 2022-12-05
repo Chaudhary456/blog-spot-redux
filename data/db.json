@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "TEST1",
+      "body": "This is blog",
+      "author": "Soumya",
+      "id": 2
+    },
+    {
+      "title": "Graph Theory",
+      "body": "Includes DFS, BFS as a building block!",
+      "author": "Soumya Chaudhary",
+      "id": 5
+    }
+  ]
+}
